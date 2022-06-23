@@ -22,9 +22,9 @@ SO THAT I can manage my time effectively
 * Bootstrap
 
 ## ScreenShot
-* Screenshots:
+* Screenshot:
 
-![screenshot](./assets/image/screenshot.PNG)
+![screenshot](./assets/images/screenshot.PNG)
 
 ## Website
 
