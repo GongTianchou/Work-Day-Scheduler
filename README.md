@@ -1,12 +1,12 @@
 # Work-Day-Scheduler
 
 # Table of contents
-1. [Description](#Description)
+1. [Description](#description)
 2. [Technologies used](#technologies-used)
-3. [Screenshots](#Screenshots)
-4. [Website](#Website)
-5. [Contributors](#Contributor)
-6. [License](#License)
+3. [Screenshots](#screenshot)
+4. [Website](#website)
+5. [Contributors](#contributor)
+6. [License](#license)
 
 ## Description
 ```

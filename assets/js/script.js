@@ -34,4 +34,16 @@ button.on("click",function(event){
 
 });
 
-
+$("#6am textarea").val(localStornge.getItem("6am").replace(/[""]+/g,""));
+$("#7am textarea").val(localStornge.getItem("7am").replace(/[""]+/g,""));
+$("#8am textarea").val(localStornge.getItem("8am").replace(/[""]+/g,""));
+$("#9am textarea").val(localStornge.getItem("9am").replace(/[""]+/g,""));
+$("#10am textarea").val(localStornge.getItem("10am").replace(/[""]+/g,""));
+$("#11am textarea").val(localStornge.getItem("11am").replace(/[""]+/g,""));
+$("#12pm textarea").val(localStornge.getItem("12pm").replace(/[""]+/g,""));
+$("#1pm textarea").val(localStornge.getItem("1pm").replace(/[""]+/g,""));
+$("#2pm textarea").val(localStornge.getItem("2pm").replace(/[""]+/g,""));
+$("#3pm textarea").val(localStornge.getItem("3pm").replace(/[""]+/g,""));
+$("#4pm textarea").val(localStornge.getItem("4pm").replace(/[""]+/g,""));
+$("#5pm textarea").val(localStornge.getItem("5pm").replace(/[""]+/g,""));
+$("#6pm textarea").val(localStornge.getItem("6pm").replace(/[""]+/g,""));
