@@ -1,7 +1,7 @@
 var button = $(".saveBtn");
 
 $(document).ready(function () {
-  var date = moment().format("dddd MMM YY");
+  var date = moment().format("dddd MMM Do");
   $("#currentDay").text(date);
 });
 
@@ -24,22 +24,22 @@ currentTime();
 
 button.on("click", function (event) {
   event.preventDefault();
-  var text = $(this).siblings("col-sm-10").val().replace(/[""]+/g, "");
+  var text = $(this).siblings(".description").val();
   var parent = $(this).parent().attr("id");
 
   localStorage.setItem(parent, JSON.stringify(text));
 });
 
-$("#6am textarea").val(localStornge.getItem("6am").replace(/[""]+/g, ""));
-$("#7am textarea").val(localStornge.getItem("7am").replace(/[""]+/g, ""));
-$("#8am textarea").val(localStornge.getItem("8am").replace(/[""]+/g, ""));
-$("#9am textarea").val(localStornge.getItem("9am").replace(/[""]+/g, ""));
-$("#10am textarea").val(localStornge.getItem("10am").replace(/[""]+/g, ""));
-$("#11am textarea").val(localStornge.getItem("11am").replace(/[""]+/g, ""));
-$("#12pm textarea").val(localStornge.getItem("12pm").replace(/[""]+/g, ""));
-$("#1pm textarea").val(localStornge.getItem("1pm").replace(/[""]+/g, ""));
-$("#2pm textarea").val(localStornge.getItem("2pm").replace(/[""]+/g, ""));
-$("#3pm textarea").val(localStornge.getItem("3pm").replace(/[""]+/g, ""));
-$("#4pm textarea").val(localStornge.getItem("4pm").replace(/[""]+/g, ""));
-$("#5pm textarea").val(localStornge.getItem("5pm").replace(/[""]+/g, ""));
-$("#6pm textarea").val(localStornge.getItem("6pm").replace(/[""]+/g, ""));
+$("#6am .description").val(localStornge.getItem("6am"));
+$("#7am .description").val(localStornge.getItem("7am"));
+$("#8am .description").val(localStornge.getItem("8am"));
+$("#9am .description").val(localStornge.getItem("9am"));
+$("#10am .descriptiona").val(localStornge.getItem("10am"));
+$("#11am .description").val(localStornge.getItem("11am"));
+$("#12pm .description").val(localStornge.getItem("12pm"));
+$("#1pm .description").val(localStornge.getItem("1pm"));
+$("#2pm .description").val(localStornge.getItem("2pm"));
+$("#3pm .description").val(localStornge.getItem("3pm"));
+$("#4pm .description").val(localStornge.getItem("4pm"));
+$("#5pm .description").val(localStornge.getItem("5pm"));
+$("#6pm .description").val(localStornge.getItem("6pm"));
