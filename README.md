@@ -2,7 +2,7 @@
 
 # Table of contents
 1. [Description](#Description)
-2. [Technologies used](#Technologies used)
+2. [Technologies used](#technologies-used)
 3. [Screenshots](#Screenshots)
 4. [Website](#Website)
 5. [Contributors](#Contributor)

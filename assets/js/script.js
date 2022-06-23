@@ -24,4 +24,14 @@ function currentTime(){
 currentTime();
 
 
+button.on("click",function(event){
+    event.preventDefault();
+    var text = $(this).siblings("col-sn-10").val().replace(/[""]+/g,"");
+    var parent=$(this).parent().attr("id");
+
+    localStorage.setItem(parent,JSON.stringify(text));
+
+
+});
+
 
