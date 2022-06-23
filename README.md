@@ -1,12 +1,12 @@
 # Work-Day-Scheduler
 
 # Table of contents
-1. [Description](#description)
-2. [Technologies used](#tech-used)
-3. [Screenshots](#screenshots)
-4. [Website](#website)
-5. [Contributors](#contributors)
-6. [License](#license)
+1. [Description](#Description)
+2. [Technologies used](#Technologies used)
+3. [Screenshots](#Screenshots)
+4. [Website](#Website)
+5. [Contributors](#Contributor)
+6. [License](#License)
 
 ## Description
 ```
@@ -30,7 +30,7 @@ SO THAT I can manage my time effectively
 
 https://gongtianchou.github.io/Work-Day-Scheduler/
 
-## Credits
+## Contributor
 
 * Tianchou Gong
 
