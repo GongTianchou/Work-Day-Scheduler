@@ -1,13 +1,13 @@
 var button = $(".saveBtn");
 
 $(document).ready(function(){
-    var date=moment().format("dddd MMM Do");
-    $("#currentDay")=text(date);
+    var date = moment().format("dddd MMM Do");
+    $("#currentDay").text(date);
 })
 
 function currentTime(){
-    var current=moment().hour();
-    var time =$("time-block");
+    var current=moment().hours();
+    var time =$(".time-block");
     time.each(function(){
         var hour=parseInt($(this).toLocaleString("id"))
         if( hour === current){
@@ -15,7 +15,7 @@ function currentTime(){
 
         } else if (current > hour){
             $(this).children(".col-sm-10").attr("class","past col-sm-10")
-        } else(){
+        } else {
             $(this).children(".col-sm-10").attr("class","future col-sm-10")
         }
     })
@@ -26,7 +26,7 @@ currentTime();
 
 button.on("click",function(event){
     event.preventDefault();
-    var text = $(this).siblings("col-sn-10").val().replace(/[""]+/g,"");
+    var text = $(this).siblings("col-sm-10").val().replace(/[""]+/g,"");
     var parent=$(this).parent().attr("id");
 
     localStorage.setItem(parent,JSON.stringify(text));
